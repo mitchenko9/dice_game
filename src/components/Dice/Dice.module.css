@@ -1,0 +1,33 @@
+.dice {
+    width: 150px;
+    height: 300px;
+    position: relative;
+}
+
+.topEdge {
+    width: 150px;
+    height: 150px;
+    background: #4C3F74;
+    position: absolute;
+
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
+
+.leftEdge {
+    width: 150px;
+    height: 150px;
+    background: #1F2142;
+    position: absolute;
+    border-right: 1px solid #4C3F74;
+
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+
+.rightEdge {
+    width: 150px;
+    height: 150px;
+    background: #1F2142;
+    position: absolute;
+
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}

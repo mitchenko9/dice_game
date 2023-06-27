@@ -1,0 +1,74 @@
+.topEdge {
+    position: absolute;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
+
+.topEdgeD1 {
+    top: 14px;
+    left: 64px;
+}
+
+.topEdgeD2 {
+    top: 65px;
+    left: -25px;
+}
+
+.topEdgeD3 {
+    top: 115px;
+    left: 64px;
+}
+
+.topEdgeD4 {
+    top: 65px;
+    left: 154px;
+}
+
+.leftEdge {
+    position: absolute;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+
+.leftEdgeD1 {
+    top: 194px;
+    left: -40px;
+}
+
+.leftEdgeD2 {
+    top: 250px;
+    left: 55px;
+}
+
+.leftEdgeD3 {
+    top: 145px;
+    left: 54px;
+}
+
+.leftEdgeD4 {
+    top: 88px;
+    left: -40px;
+}
+
+.rightEdge {
+    position: absolute;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}
+
+.rightEdgeD1 {
+    top: 248px;
+    left: 78px;
+}
+
+.rightEdgeD2 {
+    top: 145px;
+    left: 78px;
+}
+
+.rightEdgeD3 {
+    top: 88px;
+    left: 172px;
+}
+
+.rightEdgeD4 {
+    top: 188px;
+    left: 172px;
+}

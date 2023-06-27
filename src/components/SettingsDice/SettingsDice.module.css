@@ -1,0 +1,24 @@
+.containerEdges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.indent {
+    width: 65px;
+    height: 60px;
+}
+
+.messageContainer {
+    min-height: 27px;
+}
+
+.validateMessage {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}

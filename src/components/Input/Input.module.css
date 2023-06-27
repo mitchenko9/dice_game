@@ -1,0 +1,29 @@
+.input {
+    border: none;
+    background: #1F2142;
+    color: #FACB57;
+
+    width: 60px;
+    height: 60px;
+
+    font-size: 40px;
+    text-align: center;
+
+    outline: none;
+}
+
+.topBorder {
+    border-top: 1px solid #4C3F74;
+}
+
+.rightBorder {
+    border-right: 1px solid #4C3F74;
+}
+
+.bottomBorder {
+    border-bottom: 1px solid #4C3F74;
+}
+
+.input:focus {
+    background: #4C3F74;
+}

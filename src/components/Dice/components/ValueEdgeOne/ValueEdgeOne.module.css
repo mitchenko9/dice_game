@@ -1,0 +1,29 @@
+.topEdge {
+    position: absolute;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
+
+.topEdgeD1 {
+    top: 65px;
+    left: 64px;
+}
+
+.leftEdge {
+    position: absolute;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+
+.leftEdgeD1 {
+    top: 170px;
+    left: 7px;
+}
+
+.rightEdge {
+    position: absolute;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}
+
+.rightEdgeD1 {
+    top: 168px;
+    left: 127px;
+}

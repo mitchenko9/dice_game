@@ -1,0 +1,53 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 500px;
+}
+
+.messageContainer {
+    min-height: 23px;
+}
+
+.valudateMessage {
+    color: red;
+}
+
+.textRuls {
+    margin-bottom: 30px;
+}
+
+.valudateMessage,
+.textRuls {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input {
+    border: none;
+    background: #1F2142;
+    color: #FACB57;
+
+    width: 60px;
+    height: 60px;
+
+    font-size: 40px;
+    text-align: center;
+
+    outline: none;
+}
+
+.input:focus {
+    background: #4C3F74;
+}
+
+.footer {
+    display: flex;
+    justify-content:center;
+
+    margin: 20px 0;
+}
